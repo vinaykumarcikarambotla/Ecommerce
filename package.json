@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce",
+  "proxy" : "http://127.0.0.1:5000",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinaykumarcikarambotla/Ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinaykumarcikarambotla/Ecommerce/issues"
+  },
+  "homepage": "https://github.com/vinaykumarcikarambotla/Ecommerce#readme"
+}
