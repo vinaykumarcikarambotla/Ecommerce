@@ -9,11 +9,8 @@ export default function HomeScreen() {
         const fetchData = async () => {
             let _apireq= null;
             try{
-                _apireq = await axios.get('http://localhost:3000/api/products').then(resp =>{
-                    setProducts(resp);
-                }).catch(err =>{
-                    console.log(err);
-                });
+                const {data} = await axios.get('/api/products');                
+                setProducts(data);
             }catch(err){
                 console.error("Error response:");
                 console.error(err.response.data);    
