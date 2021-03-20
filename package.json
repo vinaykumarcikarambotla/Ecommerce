@@ -6,9 +6,13 @@
   "main": "index.js",
   "dependencies": {
     "express": "^4.17.1",
-    "react-router-dom": "^5.2.0"
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5"
   },
   "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-plugin-react": "^7.22.0",
     "nodemon": "^2.0.7"
   },
   "scripts": {
